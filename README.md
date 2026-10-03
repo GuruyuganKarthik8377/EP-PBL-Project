@@ -2,7 +2,7 @@
 
 Real-time ESP32-based air quality dashboard. Currently runs on simulated data; drops into hardware mode automatically when ThingSpeak env vars are set.
 
-## Tomorrow's checklist (hardware bring-up)
+## Steps
 
 1. **Wire the ESP32** — pins listed at the top of `hardware/esp32_sketch/esp32_sketch.ino`. Current wiring: DHT data → GPIO4, MQ135 → GPIO5, green LED → GPIO6, red LED → GPIO7, buzzer → GPIO13.
 2. **Create a ThingSpeak channel** — [thingspeak.com](https://thingspeak.com) → New Channel → enable field1, field2, field3 (name them Temperature, Humidity, AQI).
